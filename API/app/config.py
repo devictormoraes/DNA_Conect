@@ -3,7 +3,8 @@ import fdb
 # Configurações de conexão com o banco Firebird
 DB_CONFIG = {
     "host": "localhost",               # IP ou nome do servidor do Firebird
-    "database": "C:/caminho/ERP.FDB",  # Caminho completo do arquivo FDB
+    # Caminho completo do arquivo FDB
+    "database": "C:/DNA/Commerce/Dados/COMERCIO.FDB",
     "user": "SYSDBA",                  # Usuário do Firebird
     "password": "masterkey"            # Senha do Firebird
 }
